@@ -38,7 +38,7 @@ st.markdown("""
 - Bases de données spatiales 
 - Télédetection
 - Webmapping
-- MTN
+- MNT
 - Analyse territoriale  
 - Microsoft Office (Word, Excel, PowerPoint)  
 """)
