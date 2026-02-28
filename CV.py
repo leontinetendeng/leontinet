@@ -4,64 +4,42 @@ import streamlit as st
 st.set_page_config(page_title="CV - Léontine Tendeng", layout="centered")
 
 # Titre
-st.title("📄 Curriculum Vitae")
-st.header("Léontine Théodoria Élisabeth Tendeng")
+st.header("Léontine Théodoria Élisabeth TENDENG")
 
 # Informations personnelles
-st.subheader("👤 Informations personnelles")
-st.write("📍 Adresse : Dakar, Sénégal")
-st.write("📞 Téléphone : 78 128 11 19")
-st.write("✉️ Email : leotine.tedeng@email.com")
-st.write("🌍 Nationalité : Sénégalaise")
-
+st.sidebar.title ("Léontine Théodoria Elisabeth TENDENG")
+st.subheader(" Informations personnelles")
+st.write(" Adresse : Dakar, Sénégal")
+st.write(" Email : leontinetendeng46@email.com")
+st.write(" Nationalité : Sénégalaise")
 # Profil
-st.subheader("🎯 Profil")
-st.write("""
-Étudiante en BTS Géomatique (2ᵉ année) et en Administration Économique et Sociale (AES) à l’Université Virtuelle du Sénégal (UVS).
-Je possède des compétences en cartographie, SIG, analyse spatiale et bases de données.
-Motivée, organisée et rigoureuse, je souhaite contribuer à des projets liés à la gestion territoriale et au développement.
+st.subheader(" Profil")
+st.write("""Professionnelle en Geomatique je suis capable d'intervenir sur le terrain
+et faire des traitements d'information géographique.
 """)
 
 # Formation
-st.subheader("🎓 Formation")
-st.write("2024 – 2026 : BTS Géomatique (2ᵉ année)")
-st.write("Institut de formation en géomatique – Dakar")
+st.subheader(" Formation")
+st.write("Brevet de Technique Supérieur - GEOMATIQUE")
 
-st.write("2025 – 2026 : Licence 1 Administration Économique et Sociale (AES)")
-st.write("Université Virtuelle du Sénégal (UVS)")
-
-st.write("2023 : Baccalauréat")
-st.write("Série : L / S (à adapter)")
+# Expériences académiques
+st.subheader(" Expériences académiques")
+st.write ("Stagiaire Geomaticienne - Direction de la Gestion et de la Planification des Ressource en Eau")
+st.write ("Realisation des cartes")
 
 # Compétences
-st.subheader("🧠 Compétences")
+st.subheader(" Compétences")
 
 st.markdown("""
 - SIG : ArcGIS, QGIS  
 - Cartographie numérique  
-- Géoréférencement et numérisation  
-- Bases de données spatiales  
+- Géoréférencement 
+- Numérisation
+- Bases de données spatiales 
+- Télédetection
+- Webmapping
+- MTN
 - Analyse territoriale  
 - Microsoft Office (Word, Excel, PowerPoint)  
 """)
 
-# Expériences académiques
-st.subheader("💼 Expériences académiques")
-st.write("Projet cartographique – Réseau routier urbain")
-st.write("Collecte de données, numérisation et production de cartes thématiques sous ArcGIS.")
-
-st.write("Projet SIG – Mobilité urbaine")
-st.write("Analyse spatiale des déplacements et cartographie des zones de congestion.")
-
-# Langues
-st.subheader("🌐 Langues")
-st.write("Français : Courant")
-st.write("Wolof : Courant")
-st.write("Anglais : Niveau scolaire")
-
-# Centres d’intérêt
-st.subheader("⭐️ Centres d’intérêt")
-st.write("- Aménagement du territoire")
-st.write("- Développement local")
-st.write("- Technologies géospatiales")
-st.write("- Lecture")
