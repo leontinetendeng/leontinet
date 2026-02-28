@@ -41,5 +41,7 @@ st.markdown("""
 - MNT
 - Analyse territoriale  
 - Microsoft Office (Word, Excel, PowerPoint)  
+- Autocad
+- Google Earth
 """)
 
