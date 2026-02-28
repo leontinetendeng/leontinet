@@ -8,7 +8,7 @@ st.header("Léontine Théodoria Élisabeth TENDENG")
 
 # Informations personnelles
 st.sidebar.title ("Léontine Théodoria Elisabeth TENDENG")
-st.subheader(" Informations personnelles")
+st.write(" Information personnelle")
 st.write(" Adresse : Dakar, Sénégal")
 st.write(" Email : leontinetendeng46@email.com")
 st.write(" Nationalité : Sénégalaise")
